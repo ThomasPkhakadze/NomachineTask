@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .container{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 12px;
+}
+
+.item{
+    flex-basis: 25%;
+    height: 100px;
+    width: 80px;
+    margin: 5px;
+    padding: 8px 12px;
+    text-align: center;
+    background-color: rgba(235, 255, 235, 0.72);
+    border-radius: 12px;
+    border-color: rgb(2, 12, 19);
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.unrechable{
+    background-color: rgb(33, 31, 31);    
+    border-color: rgba(255, 89, 0, 0.748);
+    border-radius: 3px;
+    border-width: 5px;
+}
+
+.unrechable .title{
+    color: rgb(193, 121, 121);
+}
+
+.unrechable .property{
+    color: rgb(243, 243, 243);
+}
+
+.unrechable .value{
+    color: rgb(254, 224, 224);
+}
+
+.data-row{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin: 4px 0;
+}
+
+.title{
+    color:rgb(57, 70, 70);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.property{
+    color:rgb(20, 20, 59);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.value{
+    color:rgb(17, 17, 88);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hidden{
+    display: none;
+}
+
+.selected{
+    box-shadow: 5px 10px #888888;
+    transform: translateY(-5px);
+}
