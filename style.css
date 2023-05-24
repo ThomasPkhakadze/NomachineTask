@@ -82,5 +82,6 @@ html, body, .container{
 
 .selected{
     box-shadow: 5px 10px #888888;
-    transform: translateY(-5px);
+    transform: translateY(-11px);
+    border-width: 3px;
 }
